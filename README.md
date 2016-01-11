@@ -1,2 +1,2 @@
-# webmarksapp.github.io
-Main site of WebmarksApp
+# WebmarksApp
+Wellcome to the repository of the WebmarksApp project.

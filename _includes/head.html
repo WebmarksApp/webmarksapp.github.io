@@ -1,0 +1,65 @@
+<head>
+  
+  <title>
+    {% if page.title != "Home" %}
+      {{ page.title }} &ndash;
+    {% endif %}
+    {{ site.title }}
+  </title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="author" content="{{ site.author }}" />
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | strip_html }}">
+  {% else %}
+  <meta name="description" content="{{ site.description }}">
+  {% endif %}
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="{{ site.title }}">
+  {% if page.title == "Home" %}
+  <meta property="og:title" content="{{ site.title }}">
+  {% else %}
+  <meta property="og:title" content="{{ page.title }} &ndash; {{ site.title }}">
+  {% endif %}
+  {% if page.description %}
+  <meta property="og:description" content="{{ page.description | strip_html }}">
+  {% else %}
+  <meta property="og:description" content="{{ site.description }}">
+  {% endif %}
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="{{ site.twitter_name }}">
+  {% if page.title == "Home" %}
+  <meta name="twitter:title" content="{{ site.title }}">
+  {% else %}
+  <meta name="twitter:title" content="{{ page.title }} &ndash; {{ site.title }}">
+  {% endif %}
+  {% if page.description %}
+  <meta name="twitter:description" content="{{ page.description | strip_html }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+    
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/poole.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/hyde.css">
+  <link rel="stylesheet" href="/css/foundation-icons.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="128x128" href="/images/favicon-128.png">
+  <link rel="shortcut icon" href="/images/favicon-16.ico">
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  
+</head>

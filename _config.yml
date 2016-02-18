@@ -1,0 +1,36 @@
+# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+highlighter: rouge
+
+# Permalinks
+permalink:        /:year/:month/:day/:title/
+
+# Setup
+title:            'Webmarks'
+description:      'My journey in a side project development'
+baseurl:          /
+
+
+# Author Details
+author:         'Kingsor'
+
+#Social Media links
+linkedin:       'https://www.linkedin.com/in/kingsor'
+twitter:        'https://twitter.com/kingsor'
+github:         'https://github.com/kingsor'
+twitter_name:	'@kingsor'
+
+# Google Analytics
+gahandler: 'UA-3163855-5'
+
+# Disqus
+disqushandler: false
+
+# Blog Configurations
+paginate: 5
+
+destination: ./_site
+
+# Custom vars
+version:          0.8

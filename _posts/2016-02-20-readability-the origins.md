@@ -32,6 +32,7 @@ In the post [A Platform for Reading](http://www.teehanlax.com/story/readability/
 > Readability started as a hobby project inside New York based [Arc90](http://www.arc90.com/). We had known about Readability since its earliest days. In 2009 we started working with their code when we were developing our app, TweetMag. By this time, Arc90 had separated Readability off into its own business. Readability was no longer an open source JavaScript library, but a full featured Web service. Its ability to take any Web page and parse it into a clean view was incredible. Its parser was, and still is the best available.
 
 I use this kind of product from my Android phone and use it for reading later from web browser and tablet. But on the Android world the app that works better is [Pocket](https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro). So I read my collected articles from my Android tablet and from the web browser.
+
 From web browser I think [Readability](http://www.readability.com/) is the best way to read a post, better than [Pocket](https://getpocket.com/). But from an Android tablet, the Pocket app is more reliable and works better.
 
 
